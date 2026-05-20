@@ -45,3 +45,28 @@ bun.lock
 .claude/memory/
 career-dashboard
 package-lock.json
+
+# Custom tailored resumes and root build scripts
+/cv-*.html
+/cv-*.pdf
+/cv-*.tex
+/cv-john-guidry*
+/JohnGuidry*
+/build-cv-*
+/build-final-cvs.mjs
+/build-retool-cvs.mjs
+/Acc.png
+
+# Generated/tailored PDFs and HTMLs in reports/
+reports/**/*.pdf
+reports/**/*.html
+reports/**/*.docx
+
+# Temporary scraper outputs, backups, and pipeline scratch files
+/temp*
+/temp/
+/databricks_jobs.json
+/enabled_companies.txt
+/full_pipeline.txt
+**/*.bak
+**/*.tmp
