@@ -1,0 +1,1 @@
+../../../.agents/skills/career-ops-auto-pipeline/SKILL.md

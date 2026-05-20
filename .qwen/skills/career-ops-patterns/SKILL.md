@@ -1,0 +1,1 @@
+../../../.agents/skills/career-ops-patterns/SKILL.md
