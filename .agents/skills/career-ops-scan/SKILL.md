@@ -1,11 +1,18 @@
 ---
 name: career-ops-scan
 description: Portal Scanner (Descubrimiento de Ofertas)
+arguments: target
+argument-hint: "[jobright | all]"
 user-invocable: true
 license: MIT
 ---
 
 # career-ops-scan
+
+## Target Arguments
+
+- **`/career-ops-scan` or `/career-ops-scan all`**: Runs the main zero-token scanner (`node scan.mjs`) for all tracked companies and directories.
+- **`/career-ops-scan jobright`**: Connects via CDP to an authenticated Chromium session on port `9222` and executes `node scan-cdp-jobright.mjs` to fetch personalized recommendations and custom searches.
 
 # System Context -- career-ops
 
